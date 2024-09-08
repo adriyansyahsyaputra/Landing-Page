@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <link rel="stylesheet" href="./public/css/style.css">
+
+</head>
+<body class="overflow-x-hidden bg-slate-100">
+    
+    <!-- Header Start -->
+     <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container px-6">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#" id="title-nav" class="font-bold text-lg text-slate-800 block py-6">My Company</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line origin-top-left transition duration-500 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-500 ease-in-out"></span>
+                        <span class="hamburger-line origin-bottom-left transition duration-500 ease-in-out"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#" class="text-base font-semibold text-slate-800 py-2 mx-8 flex group-hover:text-blue-700">Home</a>
+                            </li>
+                            <li class="group">
+                                <a href="#about" class="text-base font-semibold text-slate-800 py-2 mx-8 flex group-hover:text-blue-700">About</a>
+                            </li>
+                            <li class="group">
+                                <a href="#product" class="text-base font-semibold text-slate-800 py-2 mx-8 flex group-hover:text-blue-700">Product</a>
+                            </li>
+                            <li class="group">
+                                <a href="#gallery" class="text-base font-semibold text-slate-800 py-2 mx-8 flex group-hover:text-blue-700">Gallery</a>
+                            </li>
+                            <li class="group">
+                                <a href="#contact" class="text-base font-semibold text-slate-800 py-2 mx-8 flex group-hover:text-blue-700">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+     </header>
+    <!-- Header End -->
+
+    <!-- HERO Start -->
+     <div class="container max-w-full text-center relative mt-20">
+        <div class="h-[500px] w-full blur-sm brightness-90 bg-cover bg-center" style="background-image: url('./public/img/hero.jpg');"></div>
+        <div class="absolute top-1/2 left-1/2 p-5 -translate-x-1/2 -translate-y-1/2">
+            <h3 class="text-3xl font-bold text-slate-200 xl:text-5xl">Make Your Dream Furniture Come True</h3>
+            <p class="text-base font-semibold text-slate-200 xl:text-xl">Choose any type of furniture annd make your dreams come true.</p>
+        </div>
+     </div>
+    <!-- HERO End -->
+
+     <!-- Main Content Start -->
+      <main class="container px-6 mt-16">
+        <!-- Sponsors Start -->
+         <div class="bg-white text-center my-5 rounded-lg shadow-lg p-5">
+            <h3 class="text-3xl font-semibold mb-3 lg:text-4xl">Our Sponsors</h3>
+            <section class="grid grid-cols-2 gap-1 justify-center lg:grid-cols-4">
+                <div class="flex justify-center items-center w-full">
+                    <img src="./public/img/sponsors/blibli.png" alt="Blibli" class="w-[70px] h-16 object-contain md:w-24 md:h-24 lg:w-28 lg:h-28">
+                </div>
+                <div class="flex justify-center items-center w-full">
+                    <img src="./public/img/sponsors/shopee.png" alt="Shoope" class="w-[70px] h-16 object-contain md:w-24 md:h-24 lg:w-28 lg:h-28">
+                </div>
+                <div class="flex justify-center items-center w-full">
+                    <img src="./public/img/sponsors/social.png" alt="Google" class="w-[70px] h-16 object-contain md:w-24 md:h-24 lg:w-28 lg:h-28">
+                </div>
+                <div class="flex justify-center items-center w-full">
+                    <img src="./public/img/sponsors/tokopedia.png" alt="Tokopedia" class="w-[70px] h-16 object-contain md:w-24 md:h-24 lg:w-28 lg:h-28">
+                </div>
+            </section>
+         </div>
+        <!-- Sponsors End -->
+
+        <!-- About Us Start -->
+         <div class="grid px-5 items-center mt-16 lg:grid-cols-2" id="about">
+            <div>
+                <h3 class="text-3xl font-semibold text-center lg:text-5xl lg:text-left">About Us</h3>
+                <p class="text-base font-serif mt-5 text-justify">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores unde ipsam culpa laudantium reprehenderit sapiente labore tenetur repellendus vitae dolorum. Perferendis, excepturi. In sit illo sint totam voluptates nam expedita iure eum asperiores. Minus ipsum excepturi debitis accusamus deleniti, eos vel perferendis ullam quas quae iusto. Cupiditate, itaque modi molestias asperiores a qui, obcaecati vel, deserunt mollitia minus doloremque fugit. Quos omnis, assumenda itaque dolor soluta possimus quisquam nihil quae esse rerum quis eos cupiditate inventore deserunt illo, accusamus ad.</p>
+            </div>
+            <div class="lg:ml-20">
+                <img src="./public/img/about.png" alt="About Us" class="mt-5">
+            </div>
+         </div>
+        <!-- About Us End -->
+
+        <!-- Why Choose Us Start -->
+         <div class="text-center mt-16">
+            <h3 class="text-3xl font-semibold mb-2">Why Choose Us?</h3>
+            <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias vitae eaque ut dolore sapiente fuga?</p>
+         </div>
+         <section class="grid gap-3 mt-10 md:grid-cols-2 lg:grid-cols-4">
+            <div class="bg-white p-4 text-center border-1 border-slate-100 rounded-md shadow-lg">
+                    <img src="./public/img/icon/cardboard-box.png" alt="" class="w-20 mx-auto mb-2">
+                    <h3 class="font-normal text-xl font-mono">Packing Rapih</h3>
+                    <p class="tracking-wider text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos pariatur minima illum accusantium molestiae aliquid modi provident dolores temporibus quaerat!</p>
+            </div>
+            <div class="bg-white p-4 text-center border-1 border-slate-100 rounded-md shadow-lg">
+                    <img src="./public/img/icon/parcel-checking.png" alt="Terpercaya" class="w-20 mx-auto mb-2">
+                    <h3 class="font-normal text-xl font-mono">Terpercaya</h3>
+                    <p class="tracking-wider text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos pariatur minima illum accusantium molestiae aliquid modi provident dolores temporibus quaerat!</p>
+            </div>
+            <div class="bg-white p-4 text-center border-1 border-slate-100 rounded-md shadow-lg">
+                    <img src="./public/img/icon/delivery-man.png" alt="Barang Aman" class="w-20 mx-auto mb-2">
+                    <h3 class="font-normal text-xl font-mono">Barang Aman</h3>
+                    <p class="tracking-wider text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos pariatur minima illum accusantium molestiae aliquid modi provident dolores temporibus quaerat!</p>
+            </div>
+            <div class="bg-white p-4 text-center border-1 border-slate-100 rounded-md shadow-lg">
+                    <img src="./public/img/icon/delivery-service.png" alt="Tepat Waktu" class="w-20 mx-auto mb-2">
+                    <h3 class="font-normal text-xl font-mono">Tepat Waktu</h3>
+                    <p class="tracking-wider text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos pariatur minima illum accusantium molestiae aliquid modi provident dolores temporibus quaerat!</p>
+            </div>
+         </section>
+        <!-- Why Choose Us End -->
+
+        <!-- Product Start -->
+        <div class="text-center mt-16" id="product">
+            <h3 class="text-3xl font-semibold mb-2">Our Product</h3>
+            <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias vitae eaque ut dolore sapiente fuga?</p>
+         </div>
+         <section class="grid grid-cols-2 gap-5 mt-10 md:grid-cols-3 lg:grid-cols-4">
+            <div class="bg-white border-1 border-[#aaa] rounded-lg shadow-lg p-2 flex flex-col">
+                <img src="./public/img/about.png" alt="" class="">
+                <h3 class="font-sans font-semibold text-lg mt-2 lg:text-xl">Name Product</h3>
+                <p class="text-sm font-light lg:text-base">Rp. 1.000.000</p>
+                <p class="text-sm font-normal lg:text-base">Jakarta</p>
+                <button class="my-2 py-1 px-2 bg-blue-600 rounded-xl items-center text-xs text-slate-200 hover:bg-blue-700 lg:py-2 lg:px-3 lg:items-end lg:text-base">Checkout</button>
+            </div>
+            <div class="bg-white border-1 border-[#aaa] rounded-lg shadow-lg p-2 flex flex-col">
+                <img src="./public/img/about.png" alt="" class="">
+                <h3 class="font-sans font-semibold text-lg mt-2 lg:text-xl">Name Product</h3>
+                <p class="text-sm font-light lg:text-base">Rp. 1.000.000</p>
+                <p class="text-sm font-normal lg:text-base">Jakarta</p>
+                <button class="my-2 py-1 px-2 bg-blue-600 rounded-xl items-center text-xs text-slate-200 hover:bg-blue-700 lg:py-2 lg:px-3 lg:items-end lg:text-base">Checkout</button>
+            </div>
+            <div class="bg-white border-1 border-[#aaa] rounded-lg shadow-lg p-2 flex flex-col">
+                <img src="./public/img/about.png" alt="" class="">
+                <h3 class="font-sans font-semibold text-lg mt-2 lg:text-xl">Name Product</h3>
+                <p class="text-sm font-light lg:text-base">Rp. 1.000.000</p>
+                <p class="text-sm font-normal lg:text-base">Jakarta</p>
+                <button class="my-2 py-1 px-2 bg-blue-600 rounded-xl items-center text-xs text-slate-200 hover:bg-blue-700 lg:py-2 lg:px-3 lg:items-end lg:text-base">Checkout</button>
+            </div>
+            <div class="bg-white border-1 border-[#aaa] rounded-lg shadow-lg p-2 flex flex-col">
+                <img src="./public/img/about.png" alt="" class="">
+                <h3 class="font-sans font-semibold text-lg mt-2 lg:text-xl">Name Product</h3>
+                <p class="text-sm font-light lg:text-base">Rp. 1.000.000</p>
+                <p class="text-sm font-normal lg:text-base">Jakarta</p>
+                <button class="my-2 py-1 px-2 bg-blue-600 rounded-xl items-center text-xs text-slate-200 hover:bg-blue-700 lg:py-2 lg:px-3 lg:items-end lg:text-base">Checkout</button>
+            </div>
+         </section>
+        <!-- Product End -->
+
+        <!-- Gallery Start -->
+        <div class="text-center mt-16" id="gallery">
+            <h3 class="text-3xl font-semibold mb-2">Our Gallery</h3>
+            <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias vitae eaque ut dolore sapiente fuga?</p>
+         </div>
+         <div class="grid grid-cols-2 gap-2 mt-10 lg:grid-cols-4">
+            <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                <div class="w-full h-full bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./public/img/gallery/1.jpg);"></div>
+            </div>
+            <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                <div class="w-full h-full bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./public/img/gallery/1.jpg);"></div>
+            </div>
+            <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                <div class="w-full h-full bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./public/img/gallery/1.jpg);"></div>
+            </div>
+            <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                <div class="w-full h-full bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./public/img/gallery/1.jpg);"></div>
+            </div>
+            <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                <div class="w-full h-full bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./public/img/gallery/1.jpg);"></div>
+            </div>
+            <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                <div class="w-full h-full bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./public/img/gallery/1.jpg);"></div>
+            </div>
+            <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                <div class="w-full h-full bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./public/img/gallery/1.jpg);"></div>
+            </div>
+            <div class="h-15 bg-blue-500 aspect-[4/3] rounded-lg md:aspect-[3/4] xl:aspect-[4/3] overflow-hidden group relative hover:scale-95 transition-all duration-500">
+                <div class="w-full h-full bg-cover bg-center absolute group-hover:scale-125 group-hover:rotate-12 transition-all duration-500" style="background-image: url(./public/img/gallery/1.jpg);"></div>
+            </div>
+         </div>
+        <!-- Gallery End -->
+        
+         <!-- Contact Us Start -->
+         <div class="text-center mt-16" id="contact">
+            <h3 class="text-3xl font-semibold mb-2">Our Product</h3>
+            <p class="text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias vitae eaque ut dolore sapiente fuga?</p>
+         </div>
+        <div class="grid px-5 items-center my-8 lg:grid-cols-2">
+            <div>
+                <img src="./public/img/about.png" alt="">
+            </div>
+            <div>
+                <form action="">
+                    <label for="nama">
+                        <span class="block font-semibold text-slate-700 mb-1">Nama</span>
+                    </label>
+                    <input type="text" id="nama" placeholder="masukkan nama anda..." class="px-3 py-2 border shadow rounded w-full block placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 mb-3">
+
+                    <label for="email">
+                        <span class="block font-semibold text-slate-700 mb-1 after:content-['*'] after:text-pink-500 after:ml-0.5">Email</span>
+                    </label>
+                    <input type="email" id="email" placeholder="Email" class="px-3 py-2 border shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:focus:border-pink-700 peer">
+                    <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Email tidak valid!</p>
+
+                    <label for="phone">
+                        <span class="block font-semibold text-slate-700 mb-1 ">Phone</span>
+                    </label>
+                    <input type="number" id="phone" placeholder="phone" class="px-3 py-2 border shadow rounded w-full block placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 mb-3" required>
+
+                    <label for="perihal"></label>
+                        <span class="block font-semibold text-slate-700 mb-1">Perihal</span>
+                    </label>
+                    <input type="text" id="perihal" class="px-3 py-2 border shadow rounded w-full block placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 mb-3">
+
+                    <label for="pesan"></label>
+                        <span class="block font-semibold text-slate-700 mb-1">Pesan</span>
+                    </label>
+                    <textarea name="pesan" id="pesan" rows="5" class="border shadow rounded w-full block placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 focus:border-sky-500 mb-3"></textarea>
+
+                    <button class="my-2 w-full py-3 bg-blue-600 rounded-lg text-white font-medium hover:bg-blue-700">Kirim Pesan!</button>
+                </form>
+            </div>
+        </div>
+         <!-- Contact Us End -->
+
+      </main>
+     <!-- Main Content End -->
+
+
+     <!-- Footer Start -->
+      <footer class="bg-slate-800 text-slate-200 py-7">
+        <div class="flex flex-col text-center px-5 max-w-7xl mx-auto lg:flex-row lg:justify-between lg:items-start lg:text-left">
+            <div class="flex-1 m-3">
+                <h2 class="mb-3 text-xl font-semibold">My Company</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sed nihil dolor ex reiciendis ipsa quod sunt exercitationem mollitia vel.</p>
+            </div>
+            <div class="flex-1 m-3 text-center">
+                <h3 class="mb-3 text-xl font-semibold">Links</h3>
+                <ul class="grid grid-cols-3 gap-1 md:space-y-1 lg:grid-cols-none">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#product" class="hover:underline">Product</a></li>
+                    <li><a href="#about" class="hover:underline">About</a></li>
+                    <li><a href="#gallery" class="hover:underline">Gallery</a></li>
+                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                </ul>
+            </div>
+            <div class="flex-1 m-2 text-center">
+                <h3 class="mb-2 text-lg font-semibold">Follow Us</h3>
+                <div class="flex justify-center lg:justify-center space-x-4">
+                    <a href="www.facebook.com" class="text-slate-200"><img src="./public/img/icon/facebook.png" alt="facebook" width="24px" height="24px"></a>
+                    <a href="www.instagram.com" class="text-slate-200"><img src="./public/img/icon/instagram.png" alt="instagram" width="24px" height="24px"></a>
+                    <a href="www.twitter.com" class="text-slate-200"><img src="./public/img/icon/twitter.png" alt="twitter" width="24px" height="24px"></a>
+                    <a href="www.tiktok.com" class="text-slate-200"><img src="./public/img/icon/tiktok.png" alt="tiktok" width="24px" height="24px"></a>
+                </div>
+            </div>
+        </div>
+      </footer>
+     <!-- Footer End -->
+
+
+     <script src="./public/js/script.js"></script>
+
+</body>
+</html>
